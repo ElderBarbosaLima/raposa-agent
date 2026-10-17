@@ -2,6 +2,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
+from dotenv import load_dotenv
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -24,4 +25,7 @@ class Settings(BaseSettings):
 
 @lru_cache
 def get_settings() -> Settings:
+    # Settings only reads its own fields from .env; export the rest (ANTHROPIC_API_KEY)
+    # so the Anthropic SDK can find it. Real environment variables still take precedence.
+    load_dotenv()
     return Settings()

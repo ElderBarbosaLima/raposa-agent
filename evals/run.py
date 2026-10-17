@@ -8,6 +8,7 @@ Costs a few cents per run (one agent conversation plus at most one judge call pe
 
 import argparse
 import json
+import os
 import sys
 import time
 from dataclasses import asdict, dataclass, field
@@ -111,6 +112,9 @@ def main(argv: list[str] | None = None) -> int:
 
     cases = [c for c in yaml.safe_load((ROOT / "cases.yaml").read_text()) if args.filter in c["id"]]
     settings = get_settings()
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("ANTHROPIC_API_KEY is not set. Add it to .env (see .env.example).", file=sys.stderr)
+        return 1
     client = anthropic.Anthropic()
     toolbox = Toolbox(load_snapshot(FIXTURE, MatchStore()), load_default_retriever())
     agent = RaposaAgent(toolbox, client=client, settings=settings, today=TODAY)
