@@ -1,0 +1,298 @@
+{
+  "_comment": "SYNTHETIC test data for a fictional 2099 season. Not real results.",
+  "team": {
+    "id": 1771,
+    "name": "Cruzeiro EC",
+    "shortName": "Cruzeiro"
+  },
+  "matches": [
+    {
+      "id": 9001,
+      "utcDate": "2099-04-05T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 1,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "awayTeam": {
+        "id": 1770,
+        "name": "Botafogo FR",
+        "shortName": "Botafogo"
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": 9002,
+      "utcDate": "2099-04-12T21:30:00Z",
+      "status": "FINISHED",
+      "matchday": 2,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras"
+      },
+      "awayTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "score": {
+        "winner": "DRAW",
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    },
+    {
+      "id": 9003,
+      "utcDate": "2099-04-19T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "awayTeam": {
+        "id": 1766,
+        "name": "Clube Atlético Mineiro",
+        "shortName": "Atlético Mineiro"
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "fullTime": {
+          "home": 3,
+          "away": 1
+        }
+      }
+    },
+    {
+      "id": 9004,
+      "utcDate": "2099-04-26T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 4,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo"
+      },
+      "awayTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": 9005,
+      "utcDate": "2099-05-03T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 5,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "awayTeam": {
+        "id": 1767,
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio"
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "fullTime": {
+          "home": 4,
+          "away": 2
+        }
+      }
+    },
+    {
+      "id": 9006,
+      "utcDate": "2099-05-10T21:30:00Z",
+      "status": "FINISHED",
+      "matchday": 6,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo"
+      },
+      "awayTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "score": {
+        "winner": "AWAY_TEAM",
+        "fullTime": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    },
+    {
+      "id": 9007,
+      "utcDate": "2099-05-17T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1766,
+        "name": "Clube Atlético Mineiro",
+        "shortName": "Atlético Mineiro"
+      },
+      "awayTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "score": {
+        "winner": "DRAW",
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        }
+      }
+    },
+    {
+      "id": 9008,
+      "utcDate": "2099-05-24T20:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 8,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "awayTeam": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": 9009,
+      "utcDate": "2099-05-31T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 9,
+      "competition": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA"
+      },
+      "season": {
+        "startDate": "2099-04-01",
+        "endDate": "2099-12-10"
+      },
+      "homeTeam": {
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras"
+      },
+      "awayTeam": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
